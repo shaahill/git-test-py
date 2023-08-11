@@ -33,6 +33,6 @@ jobs:
   goodbye:
     runs-on: ubuntu-latest
     steps:
-      - name: good world
+      - name: goodbye world
         run: echo "goodbye world"
         shell: bash
