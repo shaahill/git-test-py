@@ -26,12 +26,12 @@ jobs:
       # Runs a single command using the runners shell
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo "Hello, world! editedddd"
+        run: echo "Hello, world! editeddddxxxxx"
         shell: bash
   
   goodbyee:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
-        run: echo "goodbye world edited"
+        run: echo "goodbye world editedxxxxxx"
         shell: bash
