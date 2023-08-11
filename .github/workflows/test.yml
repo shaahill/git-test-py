@@ -30,7 +30,7 @@ jobs:
         run: echo "Hello, world!"
         shell: bash
   
-  goodbye:
+  goodbyee:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
